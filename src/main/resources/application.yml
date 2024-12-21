@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: associations-producer
+
+
+associations:
+  data-folder: ${NFE_101_HOME}/data
+  raw-kafka-topic: associations.raw
+  kafka-server: localhost:9092
+  sync-sending: true
